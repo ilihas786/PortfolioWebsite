@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Web Developer - portfolio</title>
+    <style></style>
+</head>
+<style>
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        background-color: #1d1d79;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        cursor: pointer;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(153, 153, 226);
+    }
+
+    main {
+        margin: 0px 10rem;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+    }
+
+    .firstsection div {
+
+
+        font-size: 2rem;
+        ;
+    }
+
+    .bg-img {
+        height: 30vh;
+        border-radius: 50%;
+        background-position: center;
+
+    }
+
+    element {
+
+        color: lavender;
+
+    }
+
+    .leftsection {
+        width: 40vw;
+    }
+
+    .skill-set ul li {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        /* Full width */
+        background-color: #ddd;
+        border-radius: 61px;
+        /* Grey background */
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .skills {
+        text-align: right;
+        /* Right-align text */
+        padding-top: 10px;
+        /* Add top padding */
+        padding-bottom: 10px;
+        /* Add bottom padding */
+        color: white;
+        /* White text color */
+
+        border-radius: 61px;
+    }
+
+    .html {
+        width: 70%;
+        background-color: #04AA6D;
+    }
+
+    /* Green */
+    .css {
+        width: 60%;
+        background-color: #04AA6D;
+    }
+
+    /* Blue */
+    .js {
+        width: 60%;
+        background-color: #04AA6D;
+    }
+
+    /* Red */
+    .Reactjs {
+        width: 50%;
+        background-color: #04AA6D;
+    }
+
+    .Nodejs {
+        width: 50%;
+        background-color: #04AA6D;
+    }
+
+    .Mysql {
+        width: 50%;
+        background-color: #04AA6D;
+    }
+
+    .disc {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem !important;
+    }
+
+    .disc div a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem !important;
+    }
+
+    .btn {
+        background-color: #000121;
+        color: white;
+        padding: 0.6em;
+        border-radius: 0.8em;
+        cursor: pointer;
+        border: 2px solid white
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .right-section {
+        display: grid;
+
+    }
+
+    .Projects {
+        margin: 0px 2rem;
+        ;
+    }
+
+    .disc {
+        margin: 2rem 0px;
+
+        margin-left: 3rem;
+        ;
+    }
+
+    .disc p {
+        margin: 0.9rem 0px;
+    }
+
+    .Achievements ul {
+        margin: 0px 3rem;
+        ;
+    }
+
+    .Achievements ul li {
+        margin: 0.5rem;
+    }
+
+
+    /* Dark Grey */
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Achievements">Achievement</a></li>
+                    <li><a href="#Education">Education</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hy,My name is <span style="color:rgb(148, 96, 197);">Ilihas</span> and
+                <div>I am a Aspiring <span id="element"></span> </div>
+
+                <br>
+                <div class="disc" style="font-size: 1.2rem;">I have done my projects in HTML,CSS,JS,REACTJS.Eager to
+                    learn new
+                    technologies Looking for Web development or software Engineer Roles where I can learn new Technology
+                    and use my expertise to grow along with orgainization.</div>
+                <br>
+                <div class="skill-set" style="font-size: 15px;">
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="skills html"></div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="container">
+                        <div class="skills css"></div>
+                    </div>
+                    <p>Javascript</p>
+                    <div class="container">
+                        <div class="skills css"></div>
+                    </div>
+                    <p>ReactJs</p>
+                    <div class="container">
+                        <div class="skills Reactjs"></div>
+                    </div>
+                    <p>NodeJs</p>
+                    <div class="container">
+                        <div class="skills Nodejs"></div>
+                    </div>
+                    <p>Mysql</p>
+                    <div class="container">
+                        <div class="skills Mysql"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <div><img src="ilihas-img.jpeg" class="bg-img" alt="">
+                </div>
+
+                <div>
+                    <a href="/Resume_updated_offcampus[1].pdf" download><button class="btn">Download Resume</button></a>
+                    <button class="btn">Github</button>
+                </div>
+                <br>
+                <div class="Coding-Profiles">
+                    <div class="disc">
+                        <p>Coding Profiles</p>
+                        <br>
+                        <div><a href="https://leetcode.com/ILIHAS/" target="_blank">Leetcode</a></div>
+                        <div><a href="https://www.codechef.com/users/king_ilihas44" target="_blank">Codechef</a></div>
+                        <div><a href="https://auth.geeksforgeeks.org/user/ilihaspatel44"
+                                target="_blank">GeeksforGeeks</a></div>
+                        <div><a href="https://www.linkedin.com/in/ilihas-patel-778aa5207/" target="_blank">LinkedIn</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 id="Projects" >Projects</h1>
+        <hr>
+        <br>
+        <section class="Projects" >
+
+            <div class="Project">
+                <h3>Inotebook</h3>
+                <div class="disc">
+                    <p>Techstack:ReactJS,HTML,CSS,Bootstrap,Javascript,Nodejs,ExpressJs,ExpressValidator,mongoDb,npm</p>
+
+
+                    <ul>
+                        <li>
+                            <p>Dynamic Web Application which allow to save the personal notes of users online,Ensure the
+                                privacy of
+                                users and security of data</p>
+                        </li>
+                        <li>
+                            <p>validation of data and user is done by express validator.</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="Project">
+                    <h3>NEWSAPP</h3>
+                    <div class="disc">
+                        <p>Techstack: ReactJS,HTML,CSS,Bootstrap,Javascript,Nodejs,ExpressJs</p>
+
+
+                        <ul>
+                            <li>
+                                <p>Real time web based application which gives daily updates on news to
+                                    users</p>
+                            </li>
+                            <li>
+                                <p>The data changes every day and daily the trending news on
+                                    buisness,sports,science etc like categories are shown.</p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+        </section>
+        <h1 id="Achievements">Achievements</h1>
+        <hr>
+        <br>
+        <section class="Achievements">
+
+
+            <ul>
+                <li>1795 Global Rank in Leetcode biweekly contest 104.</li>
+                <li>662 Global Rank in Codechef Staters 83 Contest.</li>
+                <li>1680 Global Rank in Codechef Staters 102 Contest</li>
+                <li>Semi Finalist in TVS Credit E.P.I.C 5.0 — IT Challenge 2023</li>
+                <li>4 star at leetcode Daily Problem Solving Sprint</li>
+                <li>All India Rank : 557 out of 3901 Partcipants in GeeksforGeeks Job a thon 28 Challenge</li>
+
+
+            </ul>
+
+
+        </section>
+        <h1 id="Education">Education</h1>
+        <hr>
+        <br>
+        <section class="Projects">
+
+
+            <div class="Project" >
+                <div>
+                    <h3>Pune University</h3>
+                    <p>June 2020 - July 2024</p>
+                    <p>CGPA : 9.11</p>
+                </div>
+                <br>
+                <div>
+                    <h3>Kendriya Vidyalaya ONGC
+                        Surat</h3>
+                    <p>Higher Secondary Certificate(HSC)
+                    </p>
+                    <p>Percentage:87.40</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
